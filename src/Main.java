@@ -76,7 +76,7 @@ public class Main {
         System.out.println();
         System.out.println();
 
-        // Задача 5
+        // Задача 6
         int start = 15000;
         double percent = 0.07;
         int month = 1;          // В итоге нормально так и не придумал как прописать переменную year чтобы все работало, поэтому оставил как есть
