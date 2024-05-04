@@ -4,11 +4,10 @@ public class Main {
         int total = 0;
         int i = 0;
         while (total < 2459000) {
-            total = total + 15000;
+            System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей");
             i++;
+            total = total + 15000;
         }
-        System.out.println(total);
-        System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей");
         System.out.println();
         System.out.println();
         System.out.println();
@@ -31,10 +30,10 @@ public class Main {
 
         // Задача 3
         int population = 12000000;
-        int dead = 8;
+        int deadRate = 8;
         int birthRate = 17;
         for (int year = 1; year < 10; year++) {
-            population += population * (birthRate - dead) / 1000;
+            population += population * (birthRate - deadRate) / 1000;
             System.out.println("Год " + year + ", численность населения составляет " + population);
         }
         System.out.println();
